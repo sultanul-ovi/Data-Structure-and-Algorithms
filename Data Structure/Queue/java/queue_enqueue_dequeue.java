@@ -1,100 +1,93 @@
-import java.util.Scanner;  
-class Stack   
-{  
-    int top;   
-    int maxsize = 10;  
-    int[] arr = new int[maxsize];  
-      
-      
-    boolean isEmpty()  
-    {  
-        return (top < 0);  
-    }  
-    Stack()  
-    {  
-        top = -1;  
-    }  
-    boolean push (Scanner sc)  
-    {  
-        if(top == maxsize-1)  
-        {  
-            System.out.println("Overflow !!");  
-            return false;  
-        }  
-        else   
-        {  
-            System.out.println("Enter Value");  
-            int val = sc.nextInt();  
-            top++;  
-            arr[top]=val;  
-            System.out.println("Item pushed");  
-            return true;  
-        }  
-    }  
-    boolean pop ()  
-    {  
-        if (top == -1)  
-        {  
-            System.out.println("Underflow !!");  
-            return false;  
-        }  
-        else   
-        {  
-            top --;   
-            System.out.println("Item popped");  
-            return true;  
-        }  
-    }  
-    void display ()  
-    {  
-        System.out.println("Printing stack elements .....");  
-        for(int i = top; i>=0;i--)  
-        {  
-            System.out.println(arr[i]);  
-        }  
-    }  
-}  
-public class Stack_Operations {  
-public static void main(String[] args) {  
-    int choice=0;  
-    Scanner sc = new Scanner(System.in);  
-    Stack s = new Stack();  
-    System.out.println("*********Stack operations using array*********\n");  
-    System.out.println("\n------------------------------------------------\n");  
-    while(choice != 4)  
-    {  
-        System.out.println("\nChose one from the below options...\n");  
-        System.out.println("\n1.Push\n2.Pop\n3.Show\n4.Exit");  
-        System.out.println("\n Enter your choice \n");        
-        choice = sc.nextInt();  
-        switch(choice)  
-        {  
-            case 1:  
-            {   
-                s.push(sc);  
-                break;  
-            }  
-            case 2:  
-            {  
-                s.pop();  
-                break;  
-            }  
-            case 3:  
-            {  
-                s.display();  
-                break;  
-            }  
-            case 4:   
-            {  
-                System.out.println("Exiting....");  
-                System.exit(0);  
-                break;   
-            }  
-            default:  
-            {  
-                System.out.println("Please Enter valid choice ");  
-            }   
-        };  
-    }  
-}  
-}  
+//  Java IMPLEMENTATION
+//  QUEUE ENQUEUE AND DEQUEUE OPERATIONS
+
+public class queue_enqueue_dequeue {
+    int SIZE = 5;
+    int items[] = new int[SIZE];
+    int front, rear;
+
+    queue_enqueue_dequeue() {
+        front = -1;
+        rear = -1;
+    }
+
+    boolean isFull() {
+        if (front == 0 && rear == SIZE - 1) {
+        return true;
+        }
+    return false;
+    }
+
+    boolean isEmpty() {
+        if (front == -1)
+            return true;
+        else
+            return false;
+    }
+
+    void enQueue(int element) {
+        if (isFull()) {
+            System.out.println("Queue is full");
+        } 
+        else {
+            if (front == -1)
+                front = 0;
+            rear++;
+            items[rear] = element;
+            System.out.println(element);
+        }
+    }
+
+    int deQueue() {
+        int element;
+        if (isEmpty()) {
+            System.out.println("Queue is empty");
+            return (-1);
+        } 
+        else {
+            element = items[front];
+            if (front >= rear) {
+            front = -1;
+            rear = -1;
+        }
+        else {
+            front++;
+        }
+        System.out.println(element);
+        return (element);
+        }
+    }
+
+    void display() {
+        int i;
+        if (isEmpty()) {
+            System.out.println("Empty Queue");
+        } 
+        else {
+            System.out.println("Items -> ");
+            for (i = front; i <= rear; i++)
+                System.out.print(items[i] + "  ");
+
+        }
+    }
+
+    public static void main(String[] args) {
+        queue_enqueue_dequeue q = new queue_enqueue_dequeue();
+
+        System.out.println("\nInitial queue:");
+        q.display();
+
+        System.out.println("\nQueue After enqueuing few elements: ");
+        q.enQueue(1);
+        q.enQueue(2);
+        q.enQueue(3);
+
+        System.out.println("\nDequeued Elements are:");
+        q.deQueue();
+        q.deQueue();
+        q.deQueue();
+
+        System.out.println("\nQueue After Dequeuing few elements: ");
+        q.display();
+    }
+}

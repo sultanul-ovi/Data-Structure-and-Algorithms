@@ -19,9 +19,11 @@ void insert(int a)
 	}
 	else 
 	{
+		
 		rear = rear+1;
 	}
 	queue[rear] = item;
+	printf("\n %d",queue[rear]);
 
 	
 }
@@ -36,6 +38,7 @@ void deletes()
 	else
 	{
 		item = queue[front];
+		printf("\n %d",queue[front]);
 		if(front == rear)
 		{
 			front = -1;
@@ -43,6 +46,7 @@ void deletes()
 		}
 		else 
 		{
+			
 			front = front + 1;
 		}
 	
@@ -76,17 +80,16 @@ int main ()
     printf("\nInitial queue: "); 
     display();
 
+	printf("\nQueue After Pushing few elements: "); 
     insert(1);
     insert(2);
     insert(3);
 
-    printf("\nQueue After Pushing few elements: "); 
-    display();
+    printf("\nPopped Elements are: "); 
+    deletes();
+    deletes();
+    deletes();
 
-
-    deletes();
-    deletes();
-    deletes();
     printf("\nQueue After Popping few elements: ");
     display();
 

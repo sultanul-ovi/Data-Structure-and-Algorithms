@@ -1,5 +1,9 @@
 {
     "files.associations": {
         "iostream": "cpp"
-    }
+    },
+    "java.project.sourcePaths": [
+        "Data Structure/Stack/java",
+        "Data Structure/Queue/java"
+    ]
 }
