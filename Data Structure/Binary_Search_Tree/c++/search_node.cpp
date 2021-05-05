@@ -133,7 +133,7 @@ int main()
 
    // bst.Inorder(item);
 
-   bst.Search(item,25);
+   bst.Search(item,5);
 
    return 0;
 

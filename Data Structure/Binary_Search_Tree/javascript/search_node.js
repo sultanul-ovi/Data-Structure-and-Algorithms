@@ -1,5 +1,5 @@
 // JavaScript implementation
-// Insert Operation
+// Search Operation
 
 
 // Visual Representation of the binary search tree
@@ -130,7 +130,7 @@ BST.insert(22);
 
 
 var root = BST.getRootNode();
-BST.inorder(root);
+// BST.inorder(root);
 
 var a = BST.search(root,5)
 
