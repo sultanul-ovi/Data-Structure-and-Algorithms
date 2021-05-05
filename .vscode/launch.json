@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Adjacency_list",
+            "request": "launch",
+            "mainClass": "Adjacency_list",
+            "projectName": "Data-Structure-and-Algorithms_3a8952a7"
+        },
+        {
+            "type": "java",
+            "name": "Launch Adjacency_matrix",
+            "request": "launch",
+            "mainClass": "Adjacency_matrix",
+            "projectName": "Data-Structure-and-Algorithms_3a8952a7"
+        },
+        {
+            "type": "java",
             "name": "Launch queue_enqueue_dequeue",
             "request": "launch",
             "mainClass": "queue_enqueue_dequeue",
