@@ -38,7 +38,7 @@ Basic sample codes for different data structures and algorithms in various langu
 
 ## Data Structure Contents
 
-1. Stack(https://github.com/sultanul-ovi/Data-Structure-and-Algorithms/tree/master/Data%20Structure/Stack)
+1. [Stack](https://github.com/sultanul-ovi/Data-Structure-and-Algorithms/tree/master/Data%20Structure/Stack)
 2. If you use the `webpack` plugin, Size Limit will bundle your JS files into
    a single file. It is important to track dependencies and webpack polyfills.
    It is also useful for small libraries with many small files and without
