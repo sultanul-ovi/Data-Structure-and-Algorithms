@@ -38,9 +38,7 @@ Basic sample codes for different data structures and algorithms in various langu
 
 ## Data Structure Contents
 
-1. Size Limit contains a CLI tool, 3 plugins (`file`, `webpack`, `time`)
-   and 3 plugin presets for popular use cases (`app`, `big-lib`, `small-lib`).
-   A CLI tool finds plugins in `package.json` and loads the config.
+1. Stack(https://github.com/sultanul-ovi/Data-Structure-and-Algorithms/tree/master/Data%20Structure/Stack)
 2. If you use the `webpack` plugin, Size Limit will bundle your JS files into
    a single file. It is important to track dependencies and webpack polyfills.
    It is also useful for small libraries with many small files and without
