@@ -12,13 +12,13 @@ Basic sample codes for different data structures and algorithms in various langu
 
 ## Data Structure Contents
 
-1.  Array
-2.  Linked List
+1.  [Array](https://github.com/sultanul-ovi/Data-Structure-and-Algorithms/tree/master/Data%20Structure/Array)
+2.  [Linked List](https://github.com/sultanul-ovi/Data-Structure-and-Algorithms/tree/master/Data%20Structure/Linked_List)
 3.  [Stack](https://github.com/sultanul-ovi/Data-Structure-and-Algorithms/tree/master/Data%20Structure/Stack)
-4.  Queue
-5.  Binary Search Tree
-6.  Graph Representation
+4.  [Queue](https://github.com/sultanul-ovi/Data-Structure-and-Algorithms/tree/master/Data%20Structure/Queue)
+5.  [Binary Search Tree](https://github.com/sultanul-ovi/Data-Structure-and-Algorithms/tree/master/Data%20Structure/Binary_Search_Tree)
+6.  [Graph Representation](https://github.com/sultanul-ovi/Data-Structure-and-Algorithms/tree/master/Data%20Structure/Graph_Representation)
 7.  Heap
-8.  Hashing
-9. Trie
+8.  [Hashing](https://github.com/sultanul-ovi/Data-Structure-and-Algorithms/tree/master/Data%20Structure/Hashing)
+9.  Trie
 
