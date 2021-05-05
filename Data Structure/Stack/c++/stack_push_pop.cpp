@@ -34,7 +34,7 @@ void show()
     }  
     if(top == -1)   
     {  
-        printf("\n Stack is empty");  
+        printf("\n []");  
     }  
 } 
 
