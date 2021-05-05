@@ -16,7 +16,7 @@ int main() {
     printf("Original array elements: \n");
 	
     for(i = 0; i<n; i++) {
-        printf("%d \n", array1[i]);
+        printf("%d  \n", array1[i]);
     }
     
     j = k;
