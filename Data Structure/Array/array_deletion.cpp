@@ -1,5 +1,5 @@
 // C++ Implementation
-// Array Deletion
+// Array Deletion 
 // Deleting An Element from a specific location
 
 
@@ -13,7 +13,7 @@ int main() {
     int i;
     int j;
     
-    printf("Original array elements:\n");
+    printf("Original array elements: \n");
 	
     for(i = 0; i<n; i++) {
         printf("%d \n", array1[i]);
