@@ -6,7 +6,7 @@ from array import *
 
 array1 = array('i', [1,2,3,4,5])
 
-print("Original array elements: ")
+print("Original array elements:")
 for x in array1:
     print(x)
 
@@ -14,6 +14,6 @@ for x in array1:
 array1.remove(4)
 
 
-print("Array elements after delete: ")
+print("Array elements after delete:")
 for x in array1:
     print(x)
