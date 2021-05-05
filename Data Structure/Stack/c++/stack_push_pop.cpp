@@ -13,7 +13,8 @@ void push(int a)
     {  
         
         top = top + 1;   
-        stack[top] = val;   
+        stack[top] = val; 
+        printf("\n %d",stack[top]);  
     }   
 }   
 
@@ -21,8 +22,11 @@ void pop ()
 {   
     if(top == -1)   
     printf("\n Underflow");  
-    else  
-    top = top -1;   
+    else{
+        printf("\n %d",stack[top]);
+        top = top -1; 
+    } 
+
 }  
 
 
@@ -43,17 +47,16 @@ int main ()
     printf("\nInitial stack: "); 
     show();
 
+    printf("\nStack After Pushing few elements: ");
     push(1);
     push(2);
     push(3);
 
-    printf("\nStack After Pushing few elements: "); 
-    show();
+    printf("\nPopped Elements are:"); 
+    pop();
+    pop();
+    pop();
 
-
-    pop();
-    pop();
-    pop();
     printf("\nStack After Popping few elements: ");
     show();
 
