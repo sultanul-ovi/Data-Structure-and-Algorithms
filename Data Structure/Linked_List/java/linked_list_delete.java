@@ -1,9 +1,6 @@
-// Linked list operations in Java
-
-class LinkedList {
+class LinkedList_delete {
     Node head;
   
-    // Create a node
     class Node {
       int item;
       Node next;
@@ -14,22 +11,7 @@ class LinkedList {
       }
     }
   
-    public void insertAtBeginning(int data) {
-      // insert the item
-      Node new_node = new Node(data);
-      new_node.next = head;
-      head = new_node;
-    }
-  
-    public void insertAfter(Node prev_node, int data) {
-      if (prev_node == null) {
-        System.out.println("The given previous node cannot be null");
-        return;
-      }
-      Node new_node = new Node(data);
-      new_node.next = prev_node.next;
-      prev_node.next = new_node;
-    }
+
   
     public void insertAtEnd(int data) {
       Node new_node = new Node(data);
@@ -59,17 +41,13 @@ class LinkedList {
         head = node.next;
         return;
       }
-      // Find the key to be deleted
       for (int i = 0; node != null && i < position - 1; i++)
         node = node.next;
   
-      // If the key is not present
       if (node == null || node.next == null)
         return;
   
-      // Remove the node
       Node next = node.next.next;
-  
       node.next = next;
     }
   
@@ -82,19 +60,26 @@ class LinkedList {
     }
   
     public static void main(String[] args) {
-      LinkedList llist = new LinkedList();
+      LinkedList_delete llist = new LinkedList_delete();
   
       llist.insertAtEnd(1);
-      llist.insertAtBeginning(2);
-      llist.insertAtBeginning(3);
+      llist.insertAtEnd(4); 
+      llist.insertAtEnd(2);
+      llist.insertAtEnd(3);
+      llist.insertAtEnd(6);
+      llist.insertAtEnd(7);
+      llist.insertAtEnd(9);
+      llist.insertAtEnd(5);
+      llist.insertAtEnd(11);
       llist.insertAtEnd(4);
-      llist.insertAfter(llist.head.next, 5);
-  
-      System.out.println("Linked list: ");
+      System.out.println("Linked list after inserting few elements:");
       llist.printList();
   
-      System.out.println("\nAfter deleting an element: ");
-      llist.deleteNode(3);
+      System.out.println("\nLinked list After deleting few elements:");
+      llist.deleteNode(1);
+      llist.deleteNode(4);
+      llist.deleteNode(5);
+      llist.deleteNode(6);
       llist.printList();
     }
   }

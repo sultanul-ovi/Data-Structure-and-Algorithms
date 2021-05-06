@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch LinkedList_insert",
+            "request": "launch",
+            "mainClass": "LinkedList_insert",
+            "projectName": "Data-Structure-and-Algorithms_3a8952a7"
+        },
+        {
+            "type": "java",
+            "name": "Launch LinkedList_delete",
+            "request": "launch",
+            "mainClass": "LinkedList_delete",
+            "projectName": "Data-Structure-and-Algorithms_3a8952a7"
+        },
+        {
+            "type": "java",
             "name": "Launch BinarySearchTree_search",
             "request": "launch",
             "mainClass": "BinarySearchTree_search",
