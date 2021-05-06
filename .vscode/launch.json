@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch trie_delete",
+            "request": "launch",
+            "mainClass": "trie_delete",
+            "projectName": "Data-Structure-and-Algorithms_3a8952a7"
+        },
+        {
+            "type": "java",
             "name": "Launch trie_insert_search",
             "request": "launch",
             "mainClass": "trie_insert_search",
