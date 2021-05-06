@@ -1,25 +1,22 @@
-# Python program to demonstrate working of HashTable 
+# Python Implementations
+# HashTable 
 
 hashTable = [[],] * 10
 
 def checkPrime(n):
     if n == 1 or n == 0:
         return 0
-
     for i in range(2, n//2):
         if n % i == 0:
             return 0
-
     return 1
 
 
 def getPrime(n):
     if n % 2 == 0:
         n = n + 1
-
     while not checkPrime(n):
         n += 2
-
     return n
 
 
@@ -32,17 +29,24 @@ def insertData(key, data):
     index = hashFunction(key)
     hashTable[index] = [key, data]
 
+
 def removeData(key):
     index = hashFunction(key)
     hashTable[index] = 0
 
-insertData(123, "apple")
-insertData(432, "mango")
-insertData(213, "banana")
-insertData(654, "guava")
-
+print("\nInitial Table: \n ")
 print(hashTable)
 
-removeData(123)
+insertData(13, "ovi")
+insertData(37, "oishee")
+insertData(23, "lami")
+insertData(64, "himel")
 
+print("\nInserting few data: \n ")
+print(hashTable)
+
+removeData(13)
+removeData(42)
+
+print("\nRemoving few data: \n ")
 print(hashTable)
