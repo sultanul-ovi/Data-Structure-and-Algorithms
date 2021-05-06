@@ -18,7 +18,7 @@ Basic sample codes for different data structures and algorithms in various langu
 4.  [Queue](https://github.com/sultanul-ovi/Data-Structure-and-Algorithms/tree/master/Data%20Structure/Queue)
 5.  [Binary Search Tree](https://github.com/sultanul-ovi/Data-Structure-and-Algorithms/tree/master/Data%20Structure/Binary_Search_Tree)
 6.  [Graph Representation](https://github.com/sultanul-ovi/Data-Structure-and-Algorithms/tree/master/Data%20Structure/Graph_Representation)
-7.  Heap
+7.  [Heap](https://github.com/sultanul-ovi/Data-Structure-and-Algorithms/tree/master/Data%20Structure/Heap)
 8.  [Hashing](https://github.com/sultanul-ovi/Data-Structure-and-Algorithms/tree/master/Data%20Structure/Hashing)
 9.  Trie
 
