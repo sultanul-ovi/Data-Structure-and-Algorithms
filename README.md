@@ -13,7 +13,6 @@ Basic sample codes for different data structures and algorithms in various langu
 ## Data Structure Contents
 
 1.  [Array](https://github.com/sultanul-ovi/Data-Structure-and-Algorithms/tree/master/Data%20Structure/Array)
- **Array Traverse
 2.  [Linked List](https://github.com/sultanul-ovi/Data-Structure-and-Algorithms/tree/master/Data%20Structure/Linked_List)
 3.  [Stack](https://github.com/sultanul-ovi/Data-Structure-and-Algorithms/tree/master/Data%20Structure/Stack)
 4.  [Queue](https://github.com/sultanul-ovi/Data-Structure-and-Algorithms/tree/master/Data%20Structure/Queue)
@@ -23,3 +22,30 @@ Basic sample codes for different data structures and algorithms in various langu
 8.  [Hashing](https://github.com/sultanul-ovi/Data-Structure-and-Algorithms/tree/master/Data%20Structure/Hashing)
 9.  [Trie](https://github.com/sultanul-ovi/Data-Structure-and-Algorithms/tree/master/Data%20Structure/Trie)
 
+
+# Unordered list
+
+* Item 1
+* Item 2
+* Item 3
+    * Item 3a
+    * Item 3b
+    * Item 3c
+
+# Ordered list
+
+1. Step 1
+2. Step 2
+3. Step 3
+    1. Step 3.1
+    2. Step 3.2
+    3. Step 3.3
+
+# List in list
+
+1. Step 1
+2. Step 2
+3. Step 3
+    * Item 3a
+    * Item 3b
+    * Item 3c
