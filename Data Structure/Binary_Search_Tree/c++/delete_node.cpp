@@ -83,6 +83,7 @@ struct node *deleteNode(struct node *root, int key) {
 int main() {
   struct node *root = NULL;
   root = insert(root, 10);
+
   root = insert(root, 2);
   root = insert(root, 1);
   root = insert(root, 4);
@@ -97,7 +98,6 @@ int main() {
   root = insert(root, 19);
 
   root = insert(root, 17);
-
   root = insert(root, 16);
   root = insert(root, 27);
   root = insert(root, 22);

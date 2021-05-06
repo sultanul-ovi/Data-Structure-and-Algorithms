@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch BinarySearchTree_search",
+            "request": "launch",
+            "mainClass": "BinarySearchTree_search",
+            "projectName": "Data-Structure-and-Algorithms_3a8952a7"
+        },
+        {
+            "type": "java",
+            "name": "Launch BinarySearchTree_insert",
+            "request": "launch",
+            "mainClass": "BinarySearchTree_insert",
+            "projectName": "Data-Structure-and-Algorithms_3a8952a7"
+        },
+        {
+            "type": "java",
+            "name": "Launch BinarySearchTree",
+            "request": "launch",
+            "mainClass": "BinarySearchTree",
+            "projectName": "Data-Structure-and-Algorithms_3a8952a7"
+        },
+        {
+            "type": "java",
             "name": "Launch HashTable",
             "request": "launch",
             "mainClass": "HashTable",

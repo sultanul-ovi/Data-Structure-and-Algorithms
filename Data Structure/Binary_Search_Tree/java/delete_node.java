@@ -1,4 +1,14 @@
-// Binary Search Tree operations in Java
+// Binary Search Tree 
+// JAVA
+
+//  Visual Representation of the binary search tree
+//                 10
+//            /         \ 
+//          5              17
+//       /    \           /   \ 
+//      2      7        14     22
+//     / \    / \      / \     / \       
+//    1   4  6   9   11   16 22   27  
 
 class BinarySearchTree {
     class Node {
@@ -21,15 +31,11 @@ class BinarySearchTree {
       root = insertKey(root, key);
     }
   
-    // Insert key in the tree
     Node insertKey(Node root, int key) {
-      // Return a new node if the tree is empty
       if (root == null) {
         root = new Node(key);
         return root;
       }
-  
-      // Traverse to the right place and insert the node
       if (key < root.key)
         root.left = insertKey(root.left, key);
       else if (key > root.key)
@@ -42,11 +48,10 @@ class BinarySearchTree {
       inorderRec(root);
     }
   
-    // Inorder Traversal
     void inorderRec(Node root) {
       if (root != null) {
         inorderRec(root.left);
-        System.out.print(root.key + " -> ");
+        System.out.print(" -> " + root.key);
         inorderRec(root.right);
       }
     }
@@ -56,34 +61,25 @@ class BinarySearchTree {
     }
   
     Node deleteRec(Node root, int key) {
-      // Return if the tree is empty
       if (root == null)
         return root;
-  
-      // Find the node to be deleted
       if (key < root.key)
         root.left = deleteRec(root.left, key);
       else if (key > root.key)
         root.right = deleteRec(root.right, key);
       else {
-        // If the node is with only one child or no child
         if (root.left == null)
           return root.right;
         else if (root.right == null)
           return root.left;
-  
-        // If the node has two children
-        // Place the inorder successor in position of the node to be deleted
         root.key = minValue(root.right);
-  
-        // Delete the inorder successor
         root.right = deleteRec(root.right, root.key);
       }
   
       return root;
     }
   
-    // Find the inorder successor
+
     int minValue(Node root) {
       int minv = root.key;
       while (root.left != null) {
@@ -93,18 +89,29 @@ class BinarySearchTree {
       return minv;
     }
   
-    // Driver Program to test above functions
     public static void main(String[] args) {
       BinarySearchTree tree = new BinarySearchTree();
   
-      tree.insert(8);
-      tree.insert(3);
-      tree.insert(1);
-      tree.insert(6);
-      tree.insert(7);
       tree.insert(10);
-      tree.insert(14);
+
+      tree.insert(2);
+      tree.insert(1);
       tree.insert(4);
+      tree.insert(9);
+
+      tree.insert(7);
+      tree.insert(6);
+      tree.insert(5);
+      tree.insert(9);
+      tree.insert(11);
+      tree.insert(14);
+      tree.insert(19);
+      tree.insert(17);
+
+      tree.insert(16);
+      tree.insert(27);
+      tree.insert(22);
+
   
       System.out.print("Inorder traversal: ");
       tree.inorder();
