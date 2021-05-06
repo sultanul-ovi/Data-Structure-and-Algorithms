@@ -6,6 +6,41 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch array_update",
+            "request": "launch",
+            "mainClass": "array_update",
+            "projectName": "Data-Structure-and-Algorithms_3a8952a7"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main",
+            "request": "launch",
+            "mainClass": "Main",
+            "projectName": "Data-Structure-and-Algorithms_3a8952a7"
+        },
+        {
+            "type": "java",
+            "name": "Launch array_traverse",
+            "request": "launch",
+            "mainClass": "array_traverse",
+            "projectName": "Data-Structure-and-Algorithms_3a8952a7"
+        },
+        {
+            "type": "java",
+            "name": "Launch array_deletion",
+            "request": "launch",
+            "mainClass": "array_deletion",
+            "projectName": "Data-Structure-and-Algorithms_3a8952a7"
+        },
+        {
+            "type": "java",
+            "name": "Launch array_search",
+            "request": "launch",
+            "mainClass": "array_search",
+            "projectName": "Data-Structure-and-Algorithms_3a8952a7"
+        },
+        {
+            "type": "java",
             "name": "Launch Adjacency_list",
             "request": "launch",
             "mainClass": "Adjacency_list",
