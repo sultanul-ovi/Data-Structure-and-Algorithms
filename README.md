@@ -47,6 +47,14 @@ Basic sample codes for different data structures and algorithms in various langu
 
 
 
+## Algorithm Contents
+
+1.  DFS
+2.  BFS
+3.  Prim's Minimal spanning tree
+
+
+
 
 
 
