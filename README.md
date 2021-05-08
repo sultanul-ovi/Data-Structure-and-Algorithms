@@ -57,14 +57,16 @@ Basic sample codes for different data structures and algorithms in various langu
     2. Bubble Sort
     3. Merge Sort
     4. Quick Sort
-3.  DFS
-4.  BFS
-5.  Dijkstra’s Algorithm
-6.  Bellman Ford's Algorithm
-7.  Spanning Tree
+3.  Graph Traversal Algorithms
+    1.  DFS
+    2.  BFS
+6.  Shortest Path Algorithms
+    1.  Dijkstra’s Algorithm
+    2.  Bellman Ford's Algorithm
+9.  Spanning Tree
     1.  Prim’s Minimum Spanning Tree
     2.  Kruskal’s Minimum Spanning Tree Algorithm
-8.  
+10.  
 
 
 
