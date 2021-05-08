@@ -60,7 +60,7 @@ Basic sample codes for different data structures and algorithms in various langu
 3.  [Graph Traversal Algorithms](https://github.com/sultanul-ovi/Data-Structure-and-Algorithms/tree/master/Algorithms/Graph%20Traversal%20Algorithms)
     1.  DFS
     2.  BFS
-4.  [Shortest Path Algorithms](https://github.com/sultanul-ovi/Data-Structure-and-Algorithms/tree/master/Algorithms/Shortest%20Path%20Algorithmshttps://github.com/sultanul-ovi/Data-Structure-and-Algorithms/tree/master/Algorithms/Sorting%20Algorithms)
+4.  [Shortest Path Algorithms](https://github.com/sultanul-ovi/Data-Structure-and-Algorithms/tree/master/Algorithms/Shortest%20Path%20Algorithms)
     1.  Dijkstra’s Algorithm
     2.  Bellman Ford's Algorithm
 5.  [Spanning Tree](https://github.com/sultanul-ovi/Data-Structure-and-Algorithms/tree/master/Algorithms/Spanning%20Tree%20Algorithms)
