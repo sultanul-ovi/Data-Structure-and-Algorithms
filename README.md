@@ -47,6 +47,27 @@ Basic sample codes for different data structures and algorithms in various langu
 
 
 
+## Algorithm Contents
+
+1. Search Algorithms
+    1. Linear Search
+    2. Binary Search
+2.  Sorting Algorithms
+    1. Insertion Sort
+    2. Bubble Sort
+    3. Merge Sort
+    4. Quick Sort
+3.  DFS
+4.  BFS
+5.  Dijkstra’s Algorithm
+6.  Bellman Ford's Algorithm
+7.  Spanning Tree
+    1.  Prim’s Minimum Spanning Tree
+    2.  Kruskal’s Minimum Spanning Tree Algorithm
+8.  
+
+
+
 
 
 
