@@ -1,5 +1,5 @@
 # Data-Structure-and-Algorithms
-Basic sample codes for different data structures and algorithms in various languages
+Sample codes for different data structures and algorithms in various languages
 
 
 ## Languages
